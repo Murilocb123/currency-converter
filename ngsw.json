@@ -1,0 +1,133 @@
+{
+  "configVersion": 1,
+  "timestamp": 1730767869256,
+  "index": "./index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./favicon.ico",
+        "./index.html",
+        "./main-XLF3TUUP.js",
+        "./manifest.webmanifest",
+        "./polyfills-FFHMD2TL.js",
+        "./styles-3DWDDKAS.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "./icons/100.png",
+        "./icons/1024.png",
+        "./icons/114.png",
+        "./icons/120.png",
+        "./icons/128.png",
+        "./icons/144.png",
+        "./icons/152.png",
+        "./icons/16.png",
+        "./icons/167.png",
+        "./icons/180.png",
+        "./icons/192.png",
+        "./icons/20.png",
+        "./icons/256.png",
+        "./icons/29.png",
+        "./icons/32.png",
+        "./icons/40.png",
+        "./icons/50.png",
+        "./icons/512.png",
+        "./icons/57.png",
+        "./icons/58.png",
+        "./icons/60.png",
+        "./icons/64.png",
+        "./icons/72.png",
+        "./icons/76.png",
+        "./icons/80.png",
+        "./icons/87.png",
+        "./media/Inter-italic.var-YRHKCDAA.woff2",
+        "./media/Inter-roman.var-5VGNBR6A.woff2",
+        "./media/color-727V6BA6.png",
+        "./media/hue-3YTJE6JS.png",
+        "./media/primeicons-4GST5W3O.woff2",
+        "./media/primeicons-DHQU4SEP.svg",
+        "./media/primeicons-GEFHGEHP.ttf",
+        "./media/primeicons-P53SE5CV.woff",
+        "./money.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "./favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
+    "./icons/100.png": "ca4307f718e08238c287160bcc2faaee744d1299",
+    "./icons/1024.png": "80ecb87797873d2e01b81067bdce4b35fe1c271d",
+    "./icons/114.png": "b9e295f6476dbbbe359776e373196adacbb401d8",
+    "./icons/120.png": "b585517f8c6894dbbdce07f96ddb57f4da67bafd",
+    "./icons/128.png": "fc408d68423f1b64a925de51bf540f469908d97c",
+    "./icons/144.png": "79f25455b4968084942327f000343a425be67a5e",
+    "./icons/152.png": "71dd5d2f6b342c5f1419de6d15a87ca4b0a69335",
+    "./icons/16.png": "0a804e430d6705a7e97265720cd03d473feb0bf2",
+    "./icons/167.png": "6c168a6ab3f1cebdf6bf5b3ffab69ddd196d0ddd",
+    "./icons/180.png": "564b2fe0f1f822937e2fa0cc6f9e9d8a68d4e390",
+    "./icons/192.png": "46291f053c2b2268cb66e094240d9a0efd076b36",
+    "./icons/20.png": "980054ab20ffc8369941cc8e277ce33d1f403f31",
+    "./icons/256.png": "cd873d8a7029d6b77b1db14bea69f1a376551f76",
+    "./icons/29.png": "b6a64c8b78a15c34406106cd51fcbb1f8d124430",
+    "./icons/32.png": "a04a7af9a812a10b921d68ce32493bc4b22cb12d",
+    "./icons/40.png": "495c52ac5d2fe65d12a5688f7e10b0836006eb77",
+    "./icons/50.png": "bb0de8aebac0df17c2785c08637d13e06730a125",
+    "./icons/512.png": "7ca460fda89049ab75035d78289f910e7a8c9e2d",
+    "./icons/57.png": "33c69d5ee41e04dba6f22e23ee71ab197b35d160",
+    "./icons/58.png": "46dcee735d6ff9449cc5e7d860864ccf81d97285",
+    "./icons/60.png": "65354d4d57a0e4ac0462444fd7a017ab87b1e365",
+    "./icons/64.png": "beb7ce7b36c3c7fb7413708a7e1eb369a036ce08",
+    "./icons/72.png": "b224470be72b2547793ff398f2a2a82f3a299523",
+    "./icons/76.png": "9b0b6ac504aa1f66bf519f2436bc0cf4df8b8ea8",
+    "./icons/80.png": "ed2282fbd70091f83edb1b1854675874d47f51f6",
+    "./icons/87.png": "7db5712c9d17d12394fedb93707b4865247983ab",
+    "./index.html": "ec53a0e898bc1ca740d28f6b786a009f9e5f8738",
+    "./main-XLF3TUUP.js": "22ab71efac70203c94c2cbe374fd5d592510e32c",
+    "./manifest.webmanifest": "9d9ba042e8afa84a87d16825e73af03eca2f3e6c",
+    "./media/Inter-italic.var-YRHKCDAA.woff2": "9995712e0ca3cda14c7d6014abe0f979cf57ec53",
+    "./media/Inter-roman.var-5VGNBR6A.woff2": "d56a83c1e298702010cde038317713aaef23fe6c",
+    "./media/color-727V6BA6.png": "c54e4eac0b6c88b9da8cfdf00b1d9093b828286b",
+    "./media/hue-3YTJE6JS.png": "ec215387067c733aed6649b96d8a81798a58b21b",
+    "./media/primeicons-4GST5W3O.woff2": "837c1279b6af9d297f34fdb43e6fcc9206a79f32",
+    "./media/primeicons-DHQU4SEP.svg": "a07ae39027c1a780b42fd82fad7575c2924d9d28",
+    "./media/primeicons-GEFHGEHP.ttf": "3b878ca7e88945a8ec25814810b95367d8977ae6",
+    "./media/primeicons-P53SE5CV.woff": "361e3af71bb4e515feead2f787348a92a5527158",
+    "./money.png": "85f71d7b6705520fcfc70c52762b5b12260fd691",
+    "./polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
+    "./styles-3DWDDKAS.css": "baeb064d0f25a9e0c88ec36a3aa3d5dac9b81179"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
