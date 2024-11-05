@@ -1,4 +1,4 @@
-<div class="md:p-8">
+<div class="md:p-7">
   <p-panel>
     <ng-template pTemplate="header">
       <div class="flex align-items-center gap-2">
@@ -14,14 +14,14 @@
         <p-progressSpinner ariaLabel="loading" />
       </div>
       <div class="form-group field col-12 mt-4">
-        <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
-          <p-floatLabel>
+        <div class="flex flex-column md:flex-row justify-content-center flex-wrap gap-2 align-items-center">
+          <p-floatLabel class="mt-3 mb-3 md:mt-0 md:mb-0">
             <p-dropdown id="moedaInId" formControlName="moedaIn" [options]="moedasIn" optionLabel="Moedas de entrada"
               placeholder="Selecione a moeda de entrada" (onChange)="onMoedaInChange()" optionLabel="value" />
             <label for="moedaInId">Moeda Incial</label>
           </p-floatLabel>
           <i class="pi pi-arrow-right"></i>
-          <p-floatLabel>
+          <p-floatLabel class="mt-3 md:mt-0">
             <p-dropdown id='moedaOutId' formControlName="moedaOut" [options]="moedasOut" optionLabel="Moedas de saída"
               placeholder="Selecione a moeda de saída" optionLabel="value" emptyMessage="Moeda não encontrada"
               (onChange)="updateTaxaCambio()" />
@@ -29,7 +29,7 @@
           </p-floatLabel>
         </div>
       </div>
-      <div class="form-group field col-12 pt-3">
+      <div class="form-group field col-12 pt-3 mt-3 md:mt-0">
         <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
           <p-iconField iconPosition="right">
           <p-floatLabel>
@@ -42,7 +42,7 @@
         </div>
       </div>
 
-      <div class="form-group field col-12 pt-3">
+      <div class="form-group field col-12 pt-3 mt-3 md:mt-0">
         <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
           <p-floatLabel>
             <p-inputNumber id="valorIn" formControlName="valorIn" class="form-control" placeholder="Informe o valor"
