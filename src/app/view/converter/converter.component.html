@@ -1,0 +1,73 @@
+<div class="md:p-8">
+  <p-panel>
+    <ng-template pTemplate="header">
+      <div class="flex align-items-center gap-2">
+
+        <p-avatar icon="pi pi-money-bill" styleClass="mr-2 text-green-500	" size="normal" shape="circle" />
+        <span class="font-bold">
+          Conversor de moedas
+        </span>
+      </div>
+    </ng-template>
+    <form [formGroup]="formGroup" class="formgrid grid" (ngSubmit)="convert()">
+      <div class="progress-spinner" *ngIf="">
+        <p-progressSpinner ariaLabel="loading" />
+      </div>
+      <div class="form-group field col-12 mt-4">
+        <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
+          <p-floatLabel>
+            <p-dropdown id="moedaInId" formControlName="moedaIn" [options]="moedasIn" optionLabel="Moedas de entrada"
+              placeholder="Selecione a moeda de entrada" (onChange)="onMoedaInChange()" optionLabel="value" />
+            <label for="moedaInId">Moeda Incial</label>
+          </p-floatLabel>
+          <i class="pi pi-arrow-right"></i>
+          <p-floatLabel>
+            <p-dropdown id='moedaOutId' formControlName="moedaOut" [options]="moedasOut" optionLabel="Moedas de saída"
+              placeholder="Selecione a moeda de saída" optionLabel="value" emptyMessage="Moeda não encontrada"
+              (onChange)="updateTaxaCambio()" />
+            <label for="moedaOutId">Moeda Final</label>
+          </p-floatLabel>
+        </div>
+      </div>
+      <div class="form-group field col-12 pt-3">
+        <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
+          <p-iconField iconPosition="right">
+          <p-floatLabel>
+            <p-inputNumber id="taxaCambio" formControlName="taxaCambio" class="form-control"
+              placeholder="Informe a taxa de cambio" min="0.1" [disabled]="disabledTaxaCambio" />
+              <p-inputIcon styleClass="pi pi-spinner pi-spin" *ngIf="isLoading$ | async" mode="decimal" />
+            <label for="taxaCambio">Taxa de cambio</label>
+          </p-floatLabel>
+        </p-iconField>
+        </div>
+      </div>
+
+      <div class="form-group field col-12 pt-3">
+        <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
+          <p-floatLabel>
+            <p-inputNumber id="valorIn" formControlName="valorIn" class="form-control" placeholder="Informe o valor"
+              min="0.1"  mode="decimal"/>
+            <label for="valorIn">Valor</label>
+          </p-floatLabel>
+
+        </div>
+      </div>
+
+      <div class="form-group field col-12">
+        <p-divider [align]="'center'" type="dashed">
+          <span class="font">Resultado: </span>
+          <span class="font-bold"> {{ result$ | async }}</span>
+        </p-divider>
+      </div>
+
+      <div class="form-group field col-12">
+        <div class="flex justify-content-center flex-wrap gap-2 align-items-center">
+          <button pButton pRipple label="Converter" class="p-button-success" type="submit" [disabled]="!formGroup.valid">
+          </button>
+        </div>
+      </div>
+
+
+    </form>
+  </p-panel>
+</div>
